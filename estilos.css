@@ -5,3 +5,19 @@ body {
  text-align: center; 
  padding: 40px; 
 } 
+img{
+    width: 300px;
+    height: auto;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px
+    ;
+}
+
+article > img{
+    width: 50px;
+    height: auto;
+}
